@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=5.0000">
+	<meta name="page-view-size" content="1280*720">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>首页</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+ 
+<body onload="focus()">
+<!-- [LOGO]开始 -->
+	<img class="bg-logo" src="img/ocn-logo.png" alt="ocn-logo">
+<!-- [LOGO]结束 -->
+
+<!-- [一级菜单]开始 -->
+	<div class="nav-decoration"></div>
+	<table class="navigation">
+		<tr>
+			<td><a href="main-digital.html" onfocus="showUp('digital-effect')" onblur="hideEffect('digital-effect')">数码家电</a></td>
+			<td><a href="orient-supplier-homepage.html" onfocus="showUp('furniture-effect')" onblur="hideEffect('furniture-effect')">生活家居</a></td>
+			<td><a href="product-detail-page-01.html" onfocus="showUp('food-effect')" onblur="hideEffect('food-effect')">食品饮料</a></td>
+			<td><a href="product-detail-page-02.html" onfocus="showUp('nurse-effect')" onblur="hideEffect('nurse-effect')">生活护理</a></td>
+			<td><a href="product-detail-page-03.html" onfocus="showUp('fashion-effect')" onblur="hideEffect('fashion-effect')">生活时尚</a></td>
+			<td><a href="orient-supplier-homepage.html" onfocus="showUp('other-effect')" onblur="hideEffect('other-effect')">其它</a></td>
+		</tr>
+	</table>
+
+	<!-- [效果]开始 -->
+	<div class="main-nav-effect-group">	
+		<div id="digital-effect" class="effect-common effect-position-01">
+			<img src="img/digital-effect.jpg" alt="">
+		</div>
+		<div id="furniture-effect" class="effect-common effect-position-02">
+			<img src="img/furniture-effect.jpg" alt="">
+		</div>
+		<div id="food-effect" class="effect-common effect-position-03">
+			<img src="img/food-effect.jpg" alt="">
+		</div>
+		<div id="nurse-effect" class="effect-common effect-position-04">
+			<img src="img/nurse-effect.jpg" alt="">
+		</div>
+		<div id="fashion-effect" class="effect-common effect-position-05">
+			<img src="img/fashion-effect.jpg" alt="">
+		</div>
+		<div id="other-effect" class="effect-common effect-position-06">
+			<img src="img/other-effect.jpg" alt="">
+		</div>
+	</div>
+	<!-- [效果]结束 -->
+<!-- [一级菜单]结束 -->
+
+<!-- [二级菜单]开始 -->
+	<div class="sub-nav">
+		<ul>
+			<li><a href="#" id="activities" onfocus="showSubsMenu('activities-items'), showUp('activities-effect')" onblur="hideEffect('activities-effect')">最新活动</a></li>
+			<li><a href="#" id="brands" onfocus="showSubsMenu('brands-items'), showUp('brands-effect'), clickFocus('brands');" onblur="hideEffect('brands-effect')">品牌专区</a></li>
+			<li><a href="#" id="products" onfocus="showSubsMenu('products-items'), showUp('products-effect')" onblur="hideEffect('products-effect')">本周新品</a></li>
+		</ul>
+	</div>
+	
+	<!-- [效果]开始 -->
+	<div class="sub-nav-effect-group">
+		<div id="activities-effect" class="sub-effect-common sub-effect-position-01">
+			<a href=""><img src="img/activities-effect.jpg" alt=""></a>
+		</div>
+		<div id="brands-effect" class="sub-effect-common sub-effect-position-02">
+			<img src="img/brands-effect.jpg" alt="">
+		</div>
+		<div id="products-effect" class="sub-effect-common sub-effect-position-03">
+			<img src="img/products-effect.jpg" alt="">
+		</div>
+	</div>
+	<!-- [效果]结束 -->
+<!-- [二级菜单]结束 -->
+
+<!-- [三级菜单]开始 -->
+	<div class="subs-nav">
+	<!-- [三级菜单]-[最新活动]开始 -->
+		<ul id="activities-items">
+
+			<li><a href="world-supplier-secondary-page.html" id="act-item-01" onfocus="showUp('newyear-effect')" onblur="hideEffect('newyear-effect')"><div class="substitle-text">新年网购惠</div></a></li>	
+			<li><a href="#" onfocus="showUp('global-carnival-effect')" onblur="hideEffect('global-carnival-effect')"><div class="substitle-Ptext"><p>环球狂欢</p><p>立减30</p></div></a></li>
+			<li><a href="#" onfocus="showUp('weekend-promotion-effect')" onblur="hideEffect('weekend-promotion-effect')"><div class="substitle-Ptext"><p>周末尊享</p><p>开播预告</p></div></a></li>
+			<li><a href="#" onfocus="showUp('must-buy-effect')" onblur="hideEffect('must-buy-effect')"><div class="substitle-Ptext"><p>必买团</p><p>惊喜享不停</p></div></a></li>
+			<li><a href="#" onfocus="showUp('year-end-party-effect')" onblur="hideEffect('year-end-party-effect')"><div class="substitle-text">年终狂欢趴</div></a></li>
+		</ul>
+		
+		<!-- [效果]开始 -->
+		<div class="latest-activities-effect-group">
+			<div id="newyear-effect" class="subHead-effect-common subHead-effect-position-01">
+				<img src="img/newyear-effect.jpg" alt="">
+			</div>
+			<div id="global-carnival-effect" class="subHead-effect-common subHead-effect-position-02">
+				<img src="img/global-carnival-effect.jpg" alt="">
+			</div>
+			<div id="weekend-promotion-effect" class="subHead-effect-common subHead-effect-position-03">
+				<img src="img/weekend-promotion-effect.jpg" alt="">
+			</div>
+			<div id="must-buy-effect" class="subHead-effect-common subHead-effect-position-04">
+				<img src="img/must-buy-effect.jpg" alt="">
+			</div>
+			<div id="year-end-party-effect" class="subHead-effect-common subHead-effect-position-05">
+				<img src="img/year-end-party-effect.jpg" alt="">
+			</div>
+		</div>
+		<!-- [效果]结束 -->
+	<!-- [三级菜单]-[最新活动]结束 -->
+
+	<!-- [三级菜单]-[品牌专区]开始 -->
+		<ul id="brands-items">
+			<li><a href="orient-supplier-homepage.html" id="bra-item-01" onfocus="showUp('oriental-shopping-effect')" onblur="hideEffect('oriental-shopping-effect')"><img class="subsMenu-logo-orient" src="img/orient.png" alt=""><span>东方购物</span></a></li>
+			<li><a href="#" onfocus="showUp('tgo-effect')" onblur="hideEffect('tgo-effect')"><img class="subsMenu-logo-tgo" src="img/tgo.png" alt=""><span>TGO商城</span></a></li>
+			<li><a href="#" onfocus="showUp('global-shopping-effect')" onblur="hideEffect('global-shopping-effect')"><img class="subsMenu-logo-world" src="img/world.png" alt=""><span>环球购物</span></a></li>
+			<li><a href="#" onfocus="showUp('chinese-cuisine-effect')" onblur="hideEffect('chinese-cuisine-effect')"><img class="subsMenu-logo-food" src="img/food.png" alt=""><span>中华美食</span></a></li>
+			<li><a href="#" onfocus="showUp('qixing-effect')" onblur="hideEffect('qixing-effect')"><img class="subsMenu-logo-sunshine" src="img/sunshine.png" alt=""><span>阳光七星</span></a></li>
+		</ul>
+		
+		<!-- [效果]开始 -->
+		<div class="brands-effect-group">
+			<div id="oriental-shopping-effect" class="subHead-effect-common subHead-effect-position-01">
+				<img src="img/oriental-shopping-effect.jpg" alt="">
+			</div>
+			<div id="tgo-effect" class="subHead-effect-common subHead-effect-position-02">
+				<img src="img/tgo-effect.jpg" alt="">
+			</div>
+			<div id="global-shopping-effect" class="subHead-effect-common subHead-effect-position-03">
+				<img src="img/global-shopping-effect.jpg" alt="">
+			</div>
+			<div id="chinese-cuisine-effect" class="subHead-effect-common subHead-effect-position-04">
+				<img src="img/chinese-cuisine-effect.jpg" alt="">
+			</div>
+			<div id="qixing-effect" class="subHead-effect-common subHead-effect-position-05">
+				<img src="img/qixing-effect.jpg" alt="">
+			</div>
+		</div>
+		<!-- [效果]结束 -->
+	<!-- [三级菜单]-[品牌专区]结束 -->	
+
+	<!-- [三级菜单]-[本周新品]开始 -->
+		<ul id="products-items">
+			<li><a href="orient-supplier-homepage.html" target="_top" id="pro-item-01" onfocus="showUp('oriental-shopping-effect')" onblur="hideEffect('oriental-shopping-effect')"><img class="subsMenu-logo-orient" src="img/orient.png" alt=""><span>东方购物</span></a></li>
+			<li><a href="#" onfocus="showUp('tgo-effect')" onblur="hideEffect('tgo-effect')"><img class="subsMenu-logo-tgo" src="img/tgo.png" alt="LOGO FOR TGO"><span>TGO商城</span></a></li>
+			<li><a href="#" onfocus="showUp('global-shopping-effect')" onblur="hideEffect('global-shopping-effect')"><img class="subsMenu-logo-world" src="img/world.png" alt=""><span>环球购物</span></a></li>
+			<li><a href="#" onfocus="showUp('chinese-cuisine-effect')" onblur="hideEffect('chinese-cuisine-effect')"><img class="subsMenu-logo-food" src="img/food.png" alt=""><span>中华美食</span></a></li>
+			<li><a href="#" onfocus="showUp('qixing-effect')" onblur="hideEffect('qixing-effect')"><img class="subsMenu-logo-sunshine" src="img/sunshine.png" alt=""><span>阳光七星</span></a></li>
+		</ul>
+		<!-- [效果]开始 -->
+		<div class="new-products-effect-group">
+			<div id="newyear-effect" class="subHead-effect-common subHead-effect-position-01">
+				<img src="img/newyear-effect.jpg" alt="">
+			</div>
+			<div id="global-carnival-effect" class="subHead-effect-common subHead-effect-position-02">
+				<img src="img/global-carnival-effect.jpg" alt="">
+			</div>
+			<div id="weekend-promotion-effect" class="subHead-effect-common subHead-effect-position-03">
+				<img src="img/weekend-promotion-effect.jpg" alt="">
+			</div>
+			<div id="must-buy-effect" class="subHead-effect-common subHead-effect-position-04">
+				<img src="img/must-buy-effect.jpg" alt="">
+			</div>
+			<div id="year-end-party-effect" class="subHead-effect-common subHead-effect-position-05">
+				<img src="img/year-end-party-effect.jpg" alt="">
+			</div>
+		</div>
+		<!-- [效果]结束 -->
+	<!-- [三级菜单]-[本周新品]结束 -->	
+	</div>
+<!-- [三级菜单]结束 -->
+
+<!-- [商品内容]开始 -->
+	<div class="main-content"> 
+	
+		<a href="#" class="left-1"><img src="img/newyear-left-1.jpg" alt="activities-newyear-left-1" class="index-big-img"></a>
+		<a href="#" class="right-1"><img src="img/newyear-right-1.jpg" alt="activities-newyear-right-1"></a>	
+		<a href="#" class="right-2"><img src="img/newyear-right-2.jpg" alt="activities-newyear-right-2"></a>	
+		<a href="#" class="bottom-1"><img src="img/newyear-bottom-1.jpg" alt="activities-newyear-bottom-1"></a>
+		<a href="#" class="bottom-2"><img src="img/newyear-bottom-2.jpg" alt="activities-newyear-bottom-2"></a>
+		<a href="#" class="bottom-3"><img src="img/newyear-bottom-3.jpg" alt="activities-newyear-bottom-3"></a>
+		
+	</div>
+<!-- [商品内容]结束-->
+</body>
+
+<script src="js/js.js" async></script>
+<script>
+	function focus(){
+		if(document.readyState == "complete"){
+			document.getElementById("activities").focus();		
+		}
+	}
+</script>
+</html>
